@@ -1,0 +1,169 @@
+*{
+	text-decoration: none;
+	margin:0;
+	padding:0;
+}
+a{
+	color:black;
+}
+.paper{position:absolute;
+	width:45vw;
+height:80vw;
+background-color:black;
+}
+
+.uppertext{position:absolute;
+	margin-top:3vw;
+	margin-left:16.5vw;
+	font-size:8pt;
+	font-family:sans-serif;
+	text-align:left;
+	color:#9e2a34;
+}
+.downtext{margin-top:6vw;
+	margin-left:16.5vw;
+	font-size:8pt;
+	font-family:sans-serif;
+	text-align:left;
+	color:#9e2a34;
+}
+
+.title{margin-top:48vw;
+	flex:1;
+	z-index:1;
+	font-size:180px;
+	font-family:sans-serif;
+	color:#a8ab96;
+	animation: move2  2s infinite linear alternate;
+}
+@keyframes move2{
+  0%{
+    transform:translate(0,0);
+  }
+  100%{
+    transform:translate(270px,0);
+  }
+}
+.title2{
+	position:absolute;
+	margin-top:48vw;
+	flex:1;
+	z-index:10;
+	font-size:180px;
+	font-family:sans-serif;
+	color:#f0f0e3;
+	animation: move 2s infinite linear alternate;
+}
+@keyframes move{
+  0%{
+    transform:translate(240px,0);
+  }
+  100%{
+    transform:translate(0,0);
+  }
+}
+.flex_parent{
+	box-sizing:border-box;
+	/*position:absolute;*/
+	position:relative;
+	display:flex;
+}
+h1{
+    color:white;
+    position: absolute;
+    margin-top: 0vh;
+    margin-left: 50vw;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    margin-top: 20vh;
+    margin-left: 50vw;
+    position: absolute;
+    font-size:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    color:white;
+        margin-top: 13vh;
+        margin-left: 50vw;
+        position: absolute;
+        font-size:50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	}
+	body{
+        animation: color 6s infinite;
+        }
+        @keyframes color {
+            0% {
+              background-color: rgb(199, 233, 245);
+            }
+            100% {
+              background-color: rgb(240, 235, 156);
+            }
+		  }
+		  .d1{
+			position: absolute;
+			margin-top:8vh ;
+			margin-left: 62vw;
+			display:block;
+			z-index: -1;
+			height: 500px;
+			width: 500px;
+			border-radius: 100%;
+			background-color: red;
+			animation-name: dot;
+			animation-duration: 1s;  
+			animation-delay: 0;
+			animation-direction: alternate;
+			animation-timing-function: ease-out; 
+			animation-iteration-count: infinite;
+			animation-fill-mode: none;
+			animation-play-state: running;
+		}
+		@keyframes dot {
+			0% {
+			  background-color: red;
+			}
+			50% {
+			  background-color: rgb(0, 30, 255);
+			}
+			100% {
+			  background-color: yellow;
+			}
+		  }
+		  .d2{
+			position: absolute;
+			margin-top:45vh ;
+			margin-left: 36vw;
+			display:block;
+			z-index: -1;
+			height: 700px;
+			width: 700px;
+			border-radius: 100%;
+			background-color: red;
+			animation-name: dot2;
+			animation-duration: 1s;  
+			animation-delay: 0;
+			animation-direction: alternate;
+			animation-timing-function: ease-out; 
+			animation-iteration-count: infinite;
+			animation-fill-mode: none;
+			animation-play-state: running;
+		}
+		@keyframes dot2 {
+			0% {
+			  background-color: red;
+			}
+			50% {
+			  background-color: rgb(255, 225, 0);
+			}
+			100% {
+			  background-color: rgb(0, 153, 255);
+			}
+		  }
+		  body{
+			height: 150%;
+			overflow-x: hidden;
+			}
