@@ -84,6 +84,29 @@ a{
 #parent4>*:hover{
     background-color: rgb(19, 70, 238);
 }
-
+.f7:visited{
+    background-color: bisque;
+}
+.f7{
+    color: red;
+}
+.f10{
+    color: red;
+}
+.f12{
+    color: red;
+}
+.f10:visited{
+    background-color: bisque;
+}
+.f10:visited{
+    color:bisque;
+}
+p:active{
+    color: bisque;
+}
+h1:active{
+    color: bisque;
+}
 @media(max-width:600px){body{background-color:rgb(194, 194, 247);}}
 @media(min-width:600px){body{background-color: rgb(224, 255, 245);}}
