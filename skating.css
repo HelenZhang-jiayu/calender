@@ -1,0 +1,114 @@
+*{
+    text-decoration: none;
+}
+h2{
+color:white;
+    margin-top: 12.5vh;
+    margin-left: 1vw;
+    position: absolute;
+    font-size:50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color:white;
+    position: absolute;
+    margin-top: 0vh;
+    margin-left: 1vw;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#m1{z-index: -10;
+    margin-top: 50vh;
+    display:block;
+    width: 500px;
+    height: 50px;
+    background: rgb(232, 244, 109);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    animation: move 8s infinite;
+    animation-timing-function: linear;
+}
+@keyframes move {
+    from {left: 0px;}
+    to {left: 100vw;}
+  }
+  #m2{
+    z-index: -10;
+    margin-top: 20vh;
+    display:block;
+    width: 300px;
+    height: 30px;
+    background: rgb(169, 140, 238);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    animation: move2 5s infinite;
+    animation-timing-function: linear;
+}
+@keyframes move2 {
+    from {left: 100vw;}
+    to {left: 0px;}
+  }
+  #m3{
+    z-index: -10;
+    margin-top: 5vh;
+    display:block;
+    width: 700px;
+    height: 60px;
+    background: rgb(161, 238, 140);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    animation: move3 2s infinite;
+    animation-timing-function: linear;
+}
+@keyframes move3 {
+    from {left: 100vw;}
+    to {left: 0px;}
+  }
+  #m4{
+    z-index: -10;
+    margin-top: 90vh;
+    display:block;
+    width: 600px;
+    height: 50px;
+    background: rgb(249, 163, 163);
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    animation: move4 4s infinite;
+    animation-timing-function: linear;
+}
+@keyframes move4 {
+    from {left: 100vw;}
+    to {left: 0vw;}
+  }
+  body{
+    animation: color 3s infinite;
+    }
+    @keyframes color {
+        0% {
+          background-color: rgb(159, 247, 228);
+        }
+        100% {
+          background-color: rgb(240, 225, 19);
+        }
+      }
+    a{
+        color:black;
+    }
+    p{
+    margin-top: 20vh;
+    margin-left: 1.5vw;
+    position: absolute;
+    font-size:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+video{
+    position: absolute;
+    width:50vw;
+    top:26vh ;
+    left:20vw;
+}
