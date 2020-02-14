@@ -34,8 +34,7 @@ a{
 #parent2{
     display:grid;
     grid-template-columns:repeat(8,1fr);
-    margin-bottom: 20px;
-    /* grid-template-rows:repeat(4,1fr); */  
+    margin-bottom: 20px; 
 }
 #parent2>*{
     font-size: 50px;
