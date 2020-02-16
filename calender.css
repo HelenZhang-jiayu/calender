@@ -1,4 +1,5 @@
 *{
+    line-height: 106%;
     text-decoration: none;
     margin-top: 0px;
     margin-left: 0px;
@@ -84,10 +85,7 @@ a{
 #parent4>*:hover{
     background-color: rgb(19, 70, 238);
 }
-.f7:visited{
-    background-color: bisque;
-}
-.f7{
+/* .f7{
     color: red;
 }
 .f10{
@@ -98,12 +96,9 @@ a{
 }
 .f14{
     color:red;
-}
-.f10:visited{
-    background-color: bisque;
-}
-.f10:visited{
-    color:bisque;
+} */
+a:visited{
+    color: rgb(255, 4, 0) !important;
 }
 p:active{
     color: bisque;
@@ -111,5 +106,6 @@ p:active{
 h1:active{
     color: bisque;
 }
+
 @media(max-width:600px){body{background-color:rgb(194, 194, 247);}}
 @media(min-width:600px){body{background-color: rgb(224, 255, 245);}}
